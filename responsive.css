@@ -64,7 +64,7 @@
   .text p{
     height: 85px;
     top: 220px;
-    left: 0;
+    left: 10px;
     padding: 15px 20px;
   }
   #science-wrapper {
@@ -86,5 +86,10 @@
   .footer-link {
     margin-left: 0px;
     margin-top: -400px;
+  }
+}
+@media(min-width:768px){
+  .sp-only{
+    display: none;
   }
 }
